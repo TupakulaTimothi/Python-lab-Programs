@@ -1,0 +1,15 @@
+s1=input()
+vowels=['a','e','i','o','u','A','E','I','O','U']
+VowelsCount=0
+ConsonentsCount=0
+SpacesCount=0
+for i in s1:
+    if i in vowels:
+        VowelsCount+=1
+    elif i==' ':
+        SpacesCount+=1
+    else:
+        ConsonentsCount+=1
+print(f"Number Of Vowels:{VowelsCount}")
+print(f"Number of Consonents:{ConsonentsCount}")
+print(f"Number of Spaces:{SpacesCount}")
